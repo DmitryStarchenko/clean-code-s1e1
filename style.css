@@ -27,13 +27,13 @@ body {
   }
 }
 
-.centered-main-page-element {
+.cent-main-page-elem {
   display: block;
   width: 500px;
   margin: 0px auto 0px;
 }
 
-.task-row-wrapper {
+.task-row-wrap {
   display: flex;
   padding: 20px 0px;
 }
@@ -143,7 +143,7 @@ li {
 
 /* Completed */
 
-#completed-tasks .task {
+#compl-tasks .task {
   text-decoration: line-through;
   color: #888;
 }

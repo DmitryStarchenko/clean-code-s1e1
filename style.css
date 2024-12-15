@@ -33,15 +33,21 @@ body {
   margin: 0px auto 0px;
 }
 
-.task {
+.task-row-wrapper {
+  display: flex;
+  padding: 20px 0px;
+}
+
+#new-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
-  display: flex;
-  padding: 20px 0px;
+.task {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 ul {
@@ -57,7 +63,7 @@ input, button{
   outline: none;
 }
 
-button {
+.edit, .delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +73,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.edit:hover {
   color: #3a3a3a;
 }
 

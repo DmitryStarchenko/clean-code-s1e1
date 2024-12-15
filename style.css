@@ -61,7 +61,8 @@
   list-style: none;
 }
 
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -146,7 +147,8 @@ input, button {
 
 /* Completed */
 
-#compl-tasks .task {
+.compl
+.task {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +162,13 @@ input, button {
   flex-grow: 1;
 }
 
-.edit-mode .edit-task {
+.edit-mode
+.edit-task {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task {
+.edit-mode
+.task {
   display: none;
 }

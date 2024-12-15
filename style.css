@@ -1,23 +1,23 @@
 /* Basic Style */
 
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.image-head {
+.img-head {
   width: 500px;
   margin: 0px auto;
   display: block;
   text-align: right;
 }
 
-.image-head img {
+.img-matrix {
   width: 100%;
 }
 
-.image-head .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -50,12 +50,14 @@ body {
   flex-grow: 1;
 }
 
-ul {
+.todo,
+.compl {
   margin: 0px;
   padding: 0px;
 }
 
-li, h3 {
+.str-task,
+.name-sect {
   list-style: none;
 }
 
@@ -63,7 +65,8 @@ input, button{
   outline: none;
 }
 
-.edit, .delete {
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -79,7 +82,7 @@ input, button{
 
 /* Heading */
 
-h3 {
+.name-sect {
   display: block;
   margin: 0 0 20px;
   color: #333;
@@ -111,7 +114,7 @@ h3 {
 
 /* Task list */
 
-li {
+.str-task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
